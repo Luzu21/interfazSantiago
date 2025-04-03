@@ -149,8 +149,8 @@ border-color: rgb(170, 170, 255);
    <widget class="QLabel" name="Username">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>90</y>
+      <x>160</x>
+      <y>80</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -211,8 +211,8 @@ color: rgb(255, 0, 255);</string>
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>390</y>
-      <width>201</width>
+      <y>380</y>
+      <width>211</width>
       <height>41</height>
      </rect>
     </property>
@@ -230,14 +230,15 @@ font: 12pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>390</y>
-      <width>191</width>
+      <x>280</x>
+      <y>380</y>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+     <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 85, 255);</string>
     </property>
     <property name="text">
      <string>Forgot password?</string>
@@ -291,7 +292,7 @@ border-color: rgb(170, 170, 255);
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>130</x>
       <y>310</y>
       <width>181</width>
       <height>51</height>

@@ -1,4 +1,5 @@
 QLineEdit#Usuario {
+  font-size: 5%;
   border-radius: 10px;
   border: 4px solid;
   color: black;}
@@ -25,6 +26,6 @@ QCommandLinkButton#link1 {font-size: 10px;
 }
 
 QPushButton:hover {
-    padding: 20px;
+    padding: 10px;
     border: 5px solid #520568;
 }
