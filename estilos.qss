@@ -1,8 +1,7 @@
 QLineEdit#Usuario {
   border-radius: 10px;
   border: 4px solid;
-  color: rgb(0, 0, 0);
-  }
+  color: black;}
 QLineEdit#password { border-radius: 10px;
   border: 4px solid;
   color: rgb(0, 0, 0);

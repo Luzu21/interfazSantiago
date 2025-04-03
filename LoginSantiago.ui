@@ -38,7 +38,7 @@
    </size>
   </property>
   <property name="cursor">
-   <cursorShape>PointingHandCursor</cursorShape>
+   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>Inicio de sesión</string>
@@ -50,6 +50,9 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
@@ -114,6 +117,9 @@ font: 16pt &quot;Noto Naskh Arabic&quot;;
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
@@ -154,7 +160,7 @@ border-color: rgb(170, 170, 255);
      </sizepolicy>
     </property>
     <property name="cursor">
-     <cursorShape>WhatsThisCursor</cursorShape>
+     <cursorShape>WaitCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">border-color: rgb(170, 170, 255);</string>
@@ -173,65 +179,6 @@ border-color: rgb(170, 170, 255);
     </property>
     <property name="flat">
      <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Usuario">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>70</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>0</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="sizeIncrement">
-     <size>
-      <width>2</width>
-      <height>2</height>
-     </size>
-    </property>
-    <property name="baseSize">
-     <size>
-      <width>2</width>
-      <height>2</height>
-     </size>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="mouseTracking">
-     <bool>false</bool>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::FocusPolicy::TabFocus</enum>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-color: rgb(170, 170, 255);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="dragEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="placeholderText">
-     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="Username">
@@ -269,16 +216,22 @@ border-color: rgb(170, 170, 255);</string>
       <height>20</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>CrossCursor</cursorShape>
+    </property>
     <property name="text">
      <string>Recordarme</string>
     </property>
    </widget>
    <widget class="QCommandLinkButton" name="link1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>30</x>
       <y>240</y>
-      <width>151</width>
+      <width>161</width>
       <height>41</height>
      </rect>
     </property>
@@ -290,6 +243,9 @@ border-color: rgb(170, 170, 255);</string>
     </property>
    </widget>
    <widget class="QCommandLinkButton" name="link2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -300,6 +256,51 @@ border-color: rgb(170, 170, 255);</string>
     </property>
     <property name="text">
      <string>Forgot password?</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Usuario">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(170, 170, 255);
+</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string notr="true"/>
     </property>
    </widget>
   </widget>
