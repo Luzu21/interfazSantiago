@@ -276,9 +276,9 @@ border-color: rgb(170, 170, 255);</string>
    <widget class="QCommandLinkButton" name="link1">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>30</x>
       <y>240</y>
-      <width>172</width>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
@@ -292,9 +292,9 @@ border-color: rgb(170, 170, 255);</string>
    <widget class="QCommandLinkButton" name="link2">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>210</x>
       <y>240</y>
-      <width>211</width>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
