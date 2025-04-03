@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>400</height>
+    <width>500</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -21,14 +21,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>400</width>
-    <height>400</height>
+    <width>500</width>
+    <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>400</width>
-    <height>400</height>
+    <width>500</width>
+    <height>500</height>
    </size>
   </property>
   <property name="baseSize">
@@ -56,9 +56,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>0</y>
-      <width>121</width>
+      <x>120</x>
+      <y>20</y>
+      <width>211</width>
       <height>41</height>
      </rect>
     </property>
@@ -70,8 +70,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Noto Naskh Arabic</family>
-      <pointsize>16</pointsize>
+      <family>Segoe UI</family>
+      <pointsize>24</pointsize>
       <italic>false</italic>
       <bold>false</bold>
      </font>
@@ -83,8 +83,9 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
-font: 16pt &quot;Noto Naskh Arabic&quot;;
+     <string notr="true">color: rgb(255, 85, 255);
+font: 24pt &quot;Segoe UI&quot;;
+
 
 
 </string>
@@ -102,10 +103,10 @@ font: 16pt &quot;Noto Naskh Arabic&quot;;
    <widget class="QLineEdit" name="password">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>120</y>
-      <width>151</width>
-      <height>22</height>
+      <x>130</x>
+      <y>220</y>
+      <width>211</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -124,7 +125,8 @@ font: 16pt &quot;Noto Naskh Arabic&quot;;
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
+     <string notr="true">;
+background-color: rgb(240, 187, 255);
 border-color: rgb(170, 170, 255);
 </string>
     </property>
@@ -144,80 +146,59 @@ border-color: rgb(170, 170, 255);
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="QPushButton" name="Iniciar">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>180</y>
-      <width>111</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="cursor">
-     <cursorShape>WaitCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-color: rgb(170, 170, 255);</string>
-    </property>
-    <property name="text">
-     <string>Iniciar sesión</string>
-    </property>
-    <property name="checkable">
-     <bool>false</bool>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-    <property name="default">
-     <bool>true</bool>
-    </property>
-    <property name="flat">
-     <bool>false</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="Username">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>50</y>
-      <width>101</width>
-      <height>16</height>
+      <x>170</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Segoe UI&quot;;</string>
+    </property>
     <property name="text">
-     <string>Username</string>
+     <string>Usuario</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="password2">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>100</y>
-      <width>101</width>
-      <height>16</height>
+      <x>160</x>
+      <y>180</y>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Segoe UI&quot;;</string>
+    </property>
     <property name="text">
-     <string>Password</string>
+     <string>Contraseña</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>150</y>
-      <width>101</width>
-      <height>20</height>
+      <x>130</x>
+      <y>270</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>CrossCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 255);</string>
     </property>
     <property name="text">
      <string>Recordarme</string>
@@ -229,14 +210,15 @@ border-color: rgb(170, 170, 255);
     </property>
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>240</y>
-      <width>161</width>
+      <x>40</x>
+      <y>390</y>
+      <width>201</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);</string>
+     <string notr="true">color: rgb(255, 85, 255);
+font: 12pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string>Don't have an account?</string>
@@ -248,11 +230,14 @@ border-color: rgb(170, 170, 255);
     </property>
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>240</y>
-      <width>151</width>
+      <x>260</x>
+      <y>390</y>
+      <width>191</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
      <string>Forgot password?</string>
@@ -261,10 +246,10 @@ border-color: rgb(170, 170, 255);
    <widget class="QLineEdit" name="Usuario">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>70</y>
-      <width>151</width>
-      <height>22</height>
+      <x>130</x>
+      <y>130</y>
+      <width>211</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -283,7 +268,7 @@ border-color: rgb(170, 170, 255);
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
+     <string notr="true">background-color: rgb(240, 187, 255);
 border-color: rgb(170, 170, 255);
 </string>
     </property>
@@ -303,13 +288,33 @@ border-color: rgb(170, 170, 255);
      <string notr="true"/>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(240, 187, 255);
+font: 20pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Iniciar sesión</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
+     <width>500</width>
      <height>33</height>
     </rect>
    </property>

@@ -15,3 +15,16 @@ QCommandLinkButton#link1 {font-size: 10px;
   border: 1px solid;
   border-color: blueviolet;}
 
+  QPushButton {
+    background-color: #eda3e1;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #760fd6;
+    transition: all 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+    padding: 20px;
+    border: 5px solid #520568;
+}
