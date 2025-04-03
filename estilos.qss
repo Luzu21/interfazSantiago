@@ -3,12 +3,14 @@ QLineEdit#Usuario {
   border: 4px solid;
   color: rgb(0, 0, 0);
   }
-
-  QLineEdit#password { border-radius: 10px;
+QLineEdit#password { border-radius: 10px;
   border: 4px solid;
   color: rgb(0, 0, 0);
   }
 
+QCommandLinkButton#link1 {font-size: 1px;
+  border: 1px solid;}
 
-
+  QCommandLinkButton#link2 {font-size: 1px;
+  border: 1px solid;}
 

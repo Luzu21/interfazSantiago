@@ -3,7 +3,7 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="enabled">
-   <bool>false</bool>
+   <bool>true</bool>
   </property>
   <property name="geometry">
    <rect>
@@ -122,11 +122,20 @@ font: 16pt &quot;Noto Naskh Arabic&quot;;
 border-color: rgb(170, 170, 255);
 </string>
     </property>
+    <property name="inputMask">
+     <string/>
+    </property>
     <property name="text">
      <string/>
     </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
     <property name="echoMode">
      <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="QPushButton" name="Iniciar">

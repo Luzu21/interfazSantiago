@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.setEnabled(False)
+        MainWindow.setEnabled(True)
         MainWindow.resize(400, 400)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
@@ -68,7 +68,9 @@ class Ui_MainWindow(object):
         self.password.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
 "border-color: rgb(170, 170, 255);\n"
 "")
+        self.password.setFrame(True)
         self.password.setEchoMode(QLineEdit.EchoMode.Password)
+        self.password.setPlaceholderText(u"")
         self.Iniciar = QPushButton(self.centralwidget)
         self.Iniciar.setObjectName(u"Iniciar")
         self.Iniciar.setGeometry(QRect(70, 180, 111, 41))
@@ -130,6 +132,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Inicio de sesi\u00f3n", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Login ERP", None))
+        self.password.setInputMask("")
         self.password.setText("")
         self.Iniciar.setText(QCoreApplication.translate("MainWindow", u"Iniciar sesi\u00f3n", None))
         self.Usuario.setText("")
